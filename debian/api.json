@@ -1,0 +1,13 @@
+{"Filepath":"include/Qt3DAnimation/qt3danimationversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DANIMATION_VERSION","QT3DANIMATION_VERSION_STR","QT_QT3DANIMATION_VERSION_H"]}]}
+{"Filepath":"include/Qt3DCore/qt3dcoreversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DCORE_VERSION","QT3DCORE_VERSION_STR","QT_QT3DCORE_VERSION_H"]}]}
+{"Filepath":"include/Qt3DCoreTest/qt3dcoretestversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DCORETEST_VERSION","QT3DCORETEST_VERSION_STR","QT_QT3DCORETEST_VERSION_H"]}]}
+{"Filepath":"include/Qt3DExtras/qt3dextrasversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DEXTRAS_VERSION","QT3DEXTRAS_VERSION_STR","QT_QT3DEXTRAS_VERSION_H"]}]}
+{"Filepath":"include/Qt3DInput/qt3dinputversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DINPUT_VERSION","QT3DINPUT_VERSION_STR","QT_QT3DINPUT_VERSION_H"]}]}
+{"Filepath":"include/Qt3DLogic/qt3dlogicversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DLOGIC_VERSION","QT3DLOGIC_VERSION_STR","QT_QT3DLOGIC_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuick/qt3dquickversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICK_VERSION","QT3DQUICK_VERSION_STR","QT_QT3DQUICK_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuickAnimation/qt3dquickanimationversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICKANIMATION_VERSION","QT3DQUICKANIMATION_VERSION_STR","QT_QT3DQUICKANIMATION_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuickExtras/qt3dquickextrasversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICKEXTRAS_VERSION","QT3DQUICKEXTRAS_VERSION_STR","QT_QT3DQUICKEXTRAS_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuickInput/qt3dquickinputversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICKINPUT_VERSION","QT3DQUICKINPUT_VERSION_STR","QT_QT3DQUICKINPUT_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuickRender/qt3dquickrenderversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICKRENDER_VERSION","QT3DQUICKRENDER_VERSION_STR","QT_QT3DQUICKRENDER_VERSION_H"]}]}
+{"Filepath":"include/Qt3DQuickScene2D/qt3dquickscene2dversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DQUICKSCENE2D_VERSION","QT3DQUICKSCENE2D_VERSION_STR","QT_QT3DQUICKSCENE2D_VERSION_H"]}]}
+{"Filepath":"include/Qt3DRender/qt3drenderversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QT3DRENDER_VERSION","QT3DRENDER_VERSION_STR","QT_QT3DRENDER_VERSION_H"]}]}

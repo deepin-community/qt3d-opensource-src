@@ -1,0 +1,41 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export QT_SELECT=qt5
+include /usr/share/dpkg/default.mk
+
+%:
+	dh $@ --with pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	dh_auto_configure -- QT_BUILD_PARTS+=tests
+
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
+
+override_dh_auto_install-arch:
+	dh_auto_install
+
+	# Reproducible builds: remove build paths from prl files.
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.prl
+
+override_dh_auto_install-indep:
+	$(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+
+override_dh_link:
+	dh_link -pqt3d5-dev-tools usr/lib/qt5/bin/qgltf usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qgltf
+	dh_link --remaining-packages
+
+override_dh_auto_test-arch:
+	# Hangs on ppc*, s390x: https://bugreports.qt.io/browse/QTBUG-63864
+ifneq (,$(filter $(DEB_HOST_ARCH),powerpc ppc64 ppc64el s390x sw64))
+	-xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
+	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+else
+	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
+	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+endif
+
+override_dh_auto_test-indep:
