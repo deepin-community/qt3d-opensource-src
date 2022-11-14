@@ -1,1 +1,1 @@
-usr/lib/*/libQt53DExtras.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DExtras.so.*

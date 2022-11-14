@@ -1,3 +1,6 @@
 # False positive: files under JSON license are not actually present
 # (they would be at i.e. src/3rdparty/assimp/contrib/rapidjson/bin/jsonchecker/ if they were)
+qt3d-opensource-src source: license-problem-json-evil [src/3rdparty/assimp/contrib/rapidjson/license.txt]
+# FTP masters use old Lintian version for auto-rejects.
+# Drop this override after they upgrade it.
 qt3d-opensource-src source: license-problem-json-evil src/3rdparty/assimp/contrib/rapidjson/license.txt

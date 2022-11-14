@@ -1,1 +1,1 @@
-usr/lib/*/libQt53DInput.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DInput.so.*

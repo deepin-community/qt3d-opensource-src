@@ -24,7 +24,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2015 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2015-2020 Dmitry Shachnev <mitya57@debian.org>
+           2015-2022 Dmitry Shachnev <mitya57@debian.org>
            2015-2016 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-3 or GPL-2
@@ -154,7 +154,7 @@ Files: tests/auto/extras/qtext2dentity/*
        tests/auto/global/aspects_startup_shutdown/tst_aspects_startup_shutdown.cpp
        tests/auto/render/*.qml
 Copyright: 2019 The Qt Company Ltd.
-           2016-2019 Klarälvdalens Datakonsult AB (KDAB)
+           2016-2021 Klarälvdalens Datakonsult AB (KDAB)
 License: BSD-3-clause
 
 Files: examples/qt3d/exampleresources/assets/cubemaps/miramar/*

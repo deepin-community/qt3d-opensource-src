@@ -1,1 +1,1 @@
-usr/lib/*/libQt53DAnimation.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DAnimation.so.*
