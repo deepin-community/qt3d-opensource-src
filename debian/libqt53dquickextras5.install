@@ -1,1 +1,1 @@
-usr/lib/*/libQt53DQuickExtras.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DQuickExtras.so.*

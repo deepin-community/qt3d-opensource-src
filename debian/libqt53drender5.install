@@ -1,2 +1,2 @@
-usr/lib/*/libQt53DRender.so.*
-usr/lib/*/qt5/plugins/renderers/libopenglrenderer.so
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DRender.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/plugins/renderers/libopenglrenderer.so

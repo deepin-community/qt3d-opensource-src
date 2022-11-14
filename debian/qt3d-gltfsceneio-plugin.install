@@ -1,3 +1,3 @@
-usr/lib/*/qt5/plugins/geometryloaders/libgltfgeometryloader.so
-usr/lib/*/qt5/plugins/sceneparsers/libgltfsceneexport.so
-usr/lib/*/qt5/plugins/sceneparsers/libgltfsceneimport.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/plugins/geometryloaders/libgltfgeometryloader.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/plugins/sceneparsers/libgltfsceneexport.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/plugins/sceneparsers/libgltfsceneimport.so

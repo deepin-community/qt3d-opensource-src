@@ -1,1 +1,1 @@
-usr/lib/*/libQt53DCore.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt53DCore.so.*

@@ -18,7 +18,7 @@ libQt53DExtras.so.5 libqt53dextras5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.7.1~20161122
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.7.1~20161122
+ (symver)Qt_5_PRIVATE_API 0
  _ZN10Qt3DExtras10QPlaneMesh11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh11qt_metacastEPKc@Qt_5 5.7.1~20161122
  _ZN10Qt3DExtras10QPlaneMesh11setMirroredEb@Qt_5 5.9.0

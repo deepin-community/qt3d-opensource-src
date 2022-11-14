@@ -18,7 +18,7 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.9.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.9.0
+ (symver)Qt_5_PRIVATE_API 0
  _ZN13Qt3DAnimation12QMorphTarget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN13Qt3DAnimation12QMorphTarget11qt_metacastEPKc@Qt_5 5.9.0
  _ZN13Qt3DAnimation12QMorphTarget12addAttributeEPN10Qt3DRender10QAttributeE@Qt_5 5.9.0
@@ -105,9 +105,7 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZN13Qt3DAnimation15QChannelMapping18channelNameChangedE7QString@Qt_5 5.9.0
  _ZN13Qt3DAnimation15QChannelMapping9setTargetEPN8Qt3DCore5QNodeE@Qt_5 5.9.0
  _ZN13Qt3DAnimation15QChannelMappingC1EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
- _ZN13Qt3DAnimation15QChannelMappingC1ERNS_22QChannelMappingPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.12.4
  _ZN13Qt3DAnimation15QChannelMappingC2EPN8Qt3DCore5QNodeE@Qt_5 5.9.0
- _ZN13Qt3DAnimation15QChannelMappingC2ERNS_22QChannelMappingPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.12.4
  _ZN13Qt3DAnimation15QChannelMappingD0Ev@Qt_5 5.9.0
  _ZN13Qt3DAnimation15QChannelMappingD1Ev@Qt_5 5.9.0
  _ZN13Qt3DAnimation15QChannelMappingD2Ev@Qt_5 5.9.0
@@ -184,8 +182,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZN13Qt3DAnimation18QAbstractAnimation16setAnimationNameERK7QString@Qt_5 5.9.0
  _ZN13Qt3DAnimation18QAbstractAnimation16staticMetaObjectE@Qt_5 5.9.0
  _ZN13Qt3DAnimation18QAbstractAnimation20animationNameChangedERK7QString@Qt_5 5.9.0
- _ZN13Qt3DAnimation18QAbstractAnimationC1ERNS_25QAbstractAnimationPrivateEP7QObject@Qt_5_PRIVATE_API 5.9.0
- _ZN13Qt3DAnimation18QAbstractAnimationC2ERNS_25QAbstractAnimationPrivateEP7QObject@Qt_5_PRIVATE_API 5.9.0
  _ZN13Qt3DAnimation18QAdditiveClipBlend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0
  _ZN13Qt3DAnimation18QAdditiveClipBlend11qt_metacastEPKc@Qt_5 5.9.0
  _ZN13Qt3DAnimation18QAdditiveClipBlend11setBaseClipEPNS_22QAbstractClipBlendNodeE@Qt_5 5.9.0
@@ -370,8 +366,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZN13Qt3DAnimation23QAbstractChannelMapping11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.10.1
  _ZN13Qt3DAnimation23QAbstractChannelMapping11qt_metacastEPKc@Qt_5 5.10.1
  _ZN13Qt3DAnimation23QAbstractChannelMapping16staticMetaObjectE@Qt_5 5.10.1
- _ZN13Qt3DAnimation23QAbstractChannelMappingC1ERNS_30QAbstractChannelMappingPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.12.4
- _ZN13Qt3DAnimation23QAbstractChannelMappingC2ERNS_30QAbstractChannelMappingPrivateEPN8Qt3DCore5QNodeE@Qt_5_PRIVATE_API 5.12.4
  _ZN13Qt3DAnimation23QAbstractChannelMappingD0Ev@Qt_5 5.10.1
  _ZN13Qt3DAnimation23QAbstractChannelMappingD1Ev@Qt_5 5.10.1
  _ZN13Qt3DAnimation23QAbstractChannelMappingD2Ev@Qt_5 5.10.1
@@ -380,11 +374,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseD0Ev@Qt_5 5.9.0
  _ZN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseD1Ev@Qt_5 5.9.0
  _ZN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseD2Ev@Qt_5 5.9.0
- _ZN13Qt3DAnimation32QChannelMappingCreatedChangeBaseC1EPKNS_23QAbstractChannelMappingE@Qt_5_PRIVATE_API 5.14.2
- _ZN13Qt3DAnimation32QChannelMappingCreatedChangeBaseC2EPKNS_23QAbstractChannelMappingE@Qt_5_PRIVATE_API 5.14.2
- _ZN13Qt3DAnimation32QChannelMappingCreatedChangeBaseD0Ev@Qt_5_PRIVATE_API 5.14.2
- _ZN13Qt3DAnimation32QChannelMappingCreatedChangeBaseD1Ev@Qt_5_PRIVATE_API 5.14.2
- _ZN13Qt3DAnimation32QChannelMappingCreatedChangeBaseD2Ev@Qt_5_PRIVATE_API 5.14.2
  _ZN13Qt3DAnimation6QClock11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.10.1
  _ZN13Qt3DAnimation6QClock11qt_metacastEPKc@Qt_5 5.10.1
  _ZN13Qt3DAnimation6QClock15setPlaybackRateEd@Qt_5 5.10.1
@@ -514,7 +503,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZNK13Qt3DAnimation22QAbstractAnimationClip8durationEv@Qt_5 5.9.0
  _ZNK13Qt3DAnimation22QAbstractClipBlendNode10metaObjectEv@Qt_5 5.9.0
  _ZNK13Qt3DAnimation23QAbstractChannelMapping10metaObjectEv@Qt_5 5.10.1
- _ZNK13Qt3DAnimation32QChannelMappingCreatedChangeBase4typeEv@Qt_5_PRIVATE_API 5.14.2
  _ZNK13Qt3DAnimation6QClock10metaObjectEv@Qt_5 5.10.1
  _ZNK13Qt3DAnimation6QClock12playbackRateEv@Qt_5 5.10.1
  _ZNK13Qt3DAnimation6QClock24createNodeCreationChangeEv@Qt_5 5.10.1
@@ -547,7 +535,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZTIN13Qt3DAnimation22QAbstractClipBlendNodeE@Qt_5 5.9.0
  _ZTIN13Qt3DAnimation23QAbstractChannelMappingE@Qt_5 5.10.1
  _ZTIN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseE@Qt_5 5.9.0
- _ZTIN13Qt3DAnimation32QChannelMappingCreatedChangeBaseE@Qt_5_PRIVATE_API 5.14.2
  _ZTIN13Qt3DAnimation6QClockE@Qt_5 5.10.1
  _ZTIN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.9.0
  _ZTSN13Qt3DAnimation12QMorphTargetE@Qt_5 5.9.0
@@ -574,7 +561,6 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZTSN13Qt3DAnimation22QAbstractClipBlendNodeE@Qt_5 5.9.0
  _ZTSN13Qt3DAnimation23QAbstractChannelMappingE@Qt_5 5.10.1
  _ZTSN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseE@Qt_5 5.9.0
- _ZTSN13Qt3DAnimation32QChannelMappingCreatedChangeBaseE@Qt_5_PRIVATE_API 5.14.2
  _ZTSN13Qt3DAnimation6QClockE@Qt_5 5.10.1
  _ZTSN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.9.0
  _ZTVN13Qt3DAnimation12QMorphTargetE@Qt_5 5.9.0
@@ -601,6 +587,5 @@ libQt53DAnimation.so.5 libqt53danimation5 #MINVER#
  _ZTVN13Qt3DAnimation22QAbstractClipBlendNodeE@Qt_5 5.9.0
  _ZTVN13Qt3DAnimation23QAbstractChannelMappingE@Qt_5 5.10.1
  _ZTVN13Qt3DAnimation31QClipBlendNodeCreatedChangeBaseE@Qt_5 5.9.0
- _ZTVN13Qt3DAnimation32QChannelMappingCreatedChangeBaseE@Qt_5_PRIVATE_API 5.14.2
  _ZTVN13Qt3DAnimation6QClockE@Qt_5 5.10.1
  _ZTVN8Qt3DCore29QNodeCreatedChangeBasePrivateE@Qt_5 5.9.0
