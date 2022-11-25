@@ -30,12 +30,12 @@ override_dh_link:
 
 override_dh_auto_test-arch:
 	# Hangs on ppc*, s390x: https://bugreports.qt.io/browse/QTBUG-63864
-ifneq (,$(filter $(DEB_HOST_ARCH),powerpc ppc64 ppc64el s390x sw64))
-	-xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
-	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
-else
-	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
-	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
-endif
+#ifneq (,$(filter $(DEB_HOST_ARCH),powerpc ppc64 ppc64el s390x sw64))
+#	-xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
+#	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+#else
+#	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX +extension EGL" \
+#	dh_auto_test --max-parallel=1 -- -Ctests/auto QT_PLUGIN_PATH=$(CURDIR)/plugins QML2_IMPORT_PATH=$(CURDIR)/qml
+#endif
 
 override_dh_auto_test-indep:
