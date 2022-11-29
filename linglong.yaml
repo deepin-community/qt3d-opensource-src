@@ -1,0 +1,26 @@
+package:
+  id: qt3d
+  name: qt3d
+  kind: lib
+  version: 5.15.7-1+dde
+  description: |
+    qt3d
+
+base:
+  id: org.deepin.base
+  version: 23.0.0
+
+depends:
+  - id: qtbase
+    version: 5.15.7-1+dde
+
+source:
+  kind: local
+  patch:
+    - debian/patches/tst_qtext2dentity_gles_disable.diff
+    - debian/patches/riscv64_atomic.diff
+    - debian/patches/add-sunway-support.patch
+
+build:
+  kind: qmake
+
