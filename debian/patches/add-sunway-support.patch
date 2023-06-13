@@ -4,8 +4,8 @@ Author: Miao Changwei <miaochangwei@uniontech.com>
 ---
 Last-Update: 2022-05-13
 
---- qt3d-opensource-src-5.15.2+dfsg.orig/src/3rdparty/assimp/contrib/rapidjson/include/rapidjson/rapidjson.h
-+++ qt3d-opensource-src-5.15.2+dfsg/src/3rdparty/assimp/contrib/rapidjson/include/rapidjson/rapidjson.h
+--- qt3d-opensource-src-5.15.2+dfsg.orig/src/3rdparty/assimp/src/contrib/rapidjson/include/rapidjson/rapidjson.h
++++ qt3d-opensource-src-5.15.2+dfsg/src/3rdparty/assimp/src/contrib/rapidjson/include/rapidjson/rapidjson.h
 @@ -239,7 +239,7 @@
  // Detect with architecture macros
  #  elif defined(__sparc) || defined(__sparc__) || defined(_POWER) || defined(__powerpc__) || defined(__ppc__) || defined(__hpux) || defined(__hppa) || defined(_MIPSEB) || defined(_POWER) || defined(__s390__)
@@ -15,8 +15,8 @@ Last-Update: 2022-05-13
  #    define RAPIDJSON_ENDIAN RAPIDJSON_LITTLEENDIAN
  #  elif defined(_MSC_VER) && (defined(_M_ARM) || defined(_M_ARM64))
  #    define RAPIDJSON_ENDIAN RAPIDJSON_LITTLEENDIAN
---- qt3d-opensource-src-5.15.2+dfsg.orig/src/3rdparty/assimp/include/assimp/Compiler/pstdint.h
-+++ qt3d-opensource-src-5.15.2+dfsg/src/3rdparty/assimp/include/assimp/Compiler/pstdint.h
+--- qt3d-opensource-src-5.15.2+dfsg.orig/src/3rdparty/assimp/src/include/assimp/Compiler/pstdint.h
++++ qt3d-opensource-src-5.15.2+dfsg/src/3rdparty/assimp/src/include/assimp/Compiler/pstdint.h
 @@ -741,7 +741,7 @@ typedef uint_least32_t uint_fast32_t;
  #endif
  
